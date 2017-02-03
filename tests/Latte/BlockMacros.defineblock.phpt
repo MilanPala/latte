@@ -31,6 +31,8 @@ $template = <<<'EOD'
 
 {include testargs, 1}
 
+{include testargs, var1 => 3}
+
 EOD;
 
 Assert::matchFile(
